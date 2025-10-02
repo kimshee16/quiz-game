@@ -1,0 +1,34 @@
+.answer-option {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 2px solid #ddd;
+    background: white;
+    cursor: pointer;
+    Transition: all 0.3s,
+    }
+    .answer-option:hover {
+    background: #f0f0f0;
+    border-color: #007bff;
+    }
+    .answer-option.correct {
+    background: #d4edda;
+    border-color: #28a745;
+    }
+    .feedback {
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+    display: none;
+    }
+    .feedback.correct {
+    background: #d4edda;
+    color: #155724;
+    }
+
+.feedback.incorrect {
+    background: #f8d7da;
+    color: #721c24;
+}
+    
